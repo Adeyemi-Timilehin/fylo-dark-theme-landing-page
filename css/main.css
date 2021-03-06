@@ -301,6 +301,8 @@ text-align: left;
     }
 
     .fylo-grid-lastSection {
+margin:0 auto;
+text-align:center;
         display: grid;
         grid-template-columns: 1fr repeat(4, auto);
     }
