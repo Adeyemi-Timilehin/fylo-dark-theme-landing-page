@@ -65,7 +65,7 @@ p {
 }
 
 header {
-    padding: 4% 5%;
+    padding: 10% 5%;
     display: flex;
     justify-content: space-between;
 }
@@ -230,7 +230,7 @@ i{
 } 
 @media only screen and (max-width:720px) {
 .logo-header{
-  margin-left: -40px;
+  margin-left: -35px;
 }
   .nav{
       display: grid;
