@@ -71,18 +71,21 @@ header {
 }
 
 article {
-
+margin-top: 50px;
     text-align: center;
 }
 
 section {
     margin: 70px 30px;
-    padding: 10px 20px;
+    padding: 30px 20px;
 }
 
 .flyo {
     max-width: 60vmax;
     margin: 10px;
+}
+.fylo-img{
+    margin-bottom: 50px;
 }
 
 .article-heading {
