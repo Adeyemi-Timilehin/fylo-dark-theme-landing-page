@@ -71,12 +71,12 @@ header {
 }
 
 article {
-margin-top: 50px;
+margin-top: 40px;
     text-align: center;
 }
 
 section {
-    margin: 70px 30px;
+    margin: 50px 30px;
     padding: 30px 20px;
 }
 
@@ -146,9 +146,8 @@ position: absolute;
     padding-right: 20px;
 }
 
-.test-img {
-    border-radius: 50%;
-    width: 2.5rem;
+.test-img {width: 1%;
+border-radius:50%;
     padding: 5px;
 }
 
@@ -162,12 +161,10 @@ position: absolute;
     line-height: 2;
     padding-left: 1rem;
     text-align: left;
-    padding: 1rem;
 }
 .email-section{
     background-color: var(--email);
     max-width: 50rem;
-    
     padding: 70px 100px;
     margin:20px auto;
     
@@ -198,9 +195,7 @@ button{
 }
 .footer{
    padding: 60px;
-  
     background-color: var(--footer-color);
-   
 }
 .logo{
     margin: 10rem 5rem 5rem; 
@@ -218,7 +213,7 @@ button{
     margin-left: 20px;
 }
 ul{
-    margin-top: -4px;
+    margin-top: 4px;
 }
 li{
     list-style: none;
@@ -239,25 +234,33 @@ i{
       grid-template-columns: repeat(3,auto);
 }
     .list-item {
-        padding: 10px 5px;
+        padding: 10px 7px;
 
     }
-h1,h2,p{
+h1{
         width: 80%;
-margin:0 auto;
-text-align:center;
+    }
+  .flyo-click{
+      margin-right: 100px;
+    }
+    .email-section{
+      padding:10px 40px;
+    }
+    .email-section p{
+      margin-right: 150px;
+      text-align: left;
+    }
     }
     .email-section h1{
-    margin:auto;
       width: 100%;
-
+text-align: left;
     }input{
-        padding: 20px 60px;
-        margin-left: 60px;
+       padding: 15px 30px;
+        margin-left: 55px;
         margin-bottom: 20px;
     }
-    button{
-        margin-left: 20px;
+    button{padding: 5px 20px;
+    }
     }
     .footer-division{
         padding-bottom:  20rem;
