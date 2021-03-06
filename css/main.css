@@ -90,6 +90,7 @@ section {
 
 .article-heading {
     width: 10%;
+margin-top:10px;
 }
 
 .article-content {
@@ -232,11 +233,19 @@ i{
     border-radius: 50px;
     margin-left: 5px;
 } 
-@media only screen and (max-width:600px) {
-
+@media only screen and (max-width:720px) {
+  .nav{
+      display: grid;
+      grid-template-columns: repeat(3,auto);
+}
     .list-item {
-        padding: 0 10px;
+        padding: 10px 5px;
 
+    }
+h1,h2,p{
+        width: 80%;
+margin:0 auto;
+text-align:center;
     }
     .email-section h1{
     margin:auto;
@@ -260,7 +269,7 @@ i{
   i{
         margin-top: 100px;
         position: relative;
-        left: 10rem;
+        left: 5rem;
     }
 }
 
